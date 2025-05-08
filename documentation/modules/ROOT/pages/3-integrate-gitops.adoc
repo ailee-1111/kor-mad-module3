@@ -26,6 +26,15 @@ GitOps에서 변경사항의 추적 가능성은 애플리케이션 소스 코�
 * 상태 변경은 pull requests를 통해 이루어짐
 * Git push는 실행중인 시스템의 상태를 Git repository에 저장된 상태에 맞게 조정
 
+
+=== GLOBEX 웹 페이지  방문
+
+link:https://ordersfrontend-retail-%USERID%.%SUBDOMAIN%[GLOBEX web page^]에서 `Customers` 메뉴를 클릭합니다.
+
+
+페이지가 정상적으로 표시되지 않습니다. 현재 서비스가 현대화된 customers 앱을 포인터로 바라보고 있지 않기 때문입니다.
+
+
 === 3.1.2 Gateway 구성 업데이트
 
 `Gateway` 구성을 업데이트하기 전에, `gateway-config` 구성맵(ConfigMap)의 현재 link:https://console-openshift-console.%SUBDOMAIN%/k8s/ns/retail-%USERID%/configmaps/gateway-config[application.yaml^] 데이터를 살펴봅니다.
