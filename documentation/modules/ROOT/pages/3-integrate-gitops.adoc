@@ -31,9 +31,8 @@ GitOps에서 변경사항의 추적 가능성은 애플리케이션 소스 코�
 
 link:https://ordersfrontend-retail-%USERID%.%SUBDOMAIN%[GLOBEX web page^]에서 `Customers` 메뉴를 클릭합니다.
 
-
 페이지가 정상적으로 표시되지 않습니다. 현재 서비스가 현대화된 customers 앱을 포인터로 바라보고 있지 않기 때문입니다.
-
+image::old-page.png[old]
 
 === 3.1.2 Gateway 구성 업데이트
 
