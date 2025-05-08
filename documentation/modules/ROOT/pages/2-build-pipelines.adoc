@@ -81,6 +81,9 @@ image::argocd-application-outofsync.png[argocd-application-outofsync]
 
 `SYNC` 를 클릭한 다음, 왼쪽 팝업 창에서 `SYNCHRONIZE` 를 클릭합니다.
 
+image::argocd-sync.png[argocd-sync]
+image::argocd-sync2.png[argocd-sync2]
+
 애플리케이션을 동기화하는 데 몇 초가 걸립니다. 완료되면 다음과 같이 표시됩니다:
 
 image::argocd-application-synced.png[argocd-application-synced]
@@ -157,7 +160,12 @@ image::ama-pipeline-complete.png[ama-pipeline-complete]
 
 Globex 리테일 시스템은 OpenShift 클러스터에 여러 마이크로서비스를 배포했습니다. 각 마이크로서비스는 다른 마이크로서비스 및 데이터베이스와 복잡한 관계를 가지고 있습니다. 이 아키텍처는 개발자 및 SRE에게 즉시 이해되지 않을 수 있습니다. 다행히 OpenShift 개발자 콘솔은 유용한 레이블과 주석이 포함된 직관적인 `Topology View` 를 제공합니다. 이러한 레이블은 같은 네임스페이스에 배포된 애플리케이션 간의 명시적인 관계를 상세하게 나타냅니다.
 
+image::app-topology.png[app-topology] 
+
+
 각 애플리케이션에 사용된 _언어_, _프레임워크_ 및 _런타임_ 을 표시하기 위해 각 배포에 레이블과 주석을 추가하려면 다음 명령을 실행하세요:
+
+image::app-tag.png[app-tag] 
 
 [.console-input]
 [source,bash]
