@@ -195,7 +195,7 @@ oc annotate deployment/gateway app.openshift.io/connects-to='["inventory","order
 
 다음으로, Developer perspective에서 `retail-%USERID%` 프로젝트의 link:https://console-openshift-console.%SUBDOMAIN%/topology/ns/retail-%USERID%?view=graph[Topology View^]로 돌아가면 애플리케이션 배포가 다음과 같이 표시됩니다:
 
-image::app-topology.png[app-topology] 
+image::app-topology2.png[app-topology2] 
 
 == 축하합니다!
 
